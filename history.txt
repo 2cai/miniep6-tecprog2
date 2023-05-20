@@ -1,0 +1,5 @@
+sudo docker image build .
+sudo docker image ls
+sudo docker container run  -p 1025:80/tcp  c29347022061
+sudo docker image build .
+sudo docker container run  -p 1025:80/tcp -v /home/gabrielcaiaffa/Desktop/miniep6-tecprog2/pages:/usr/src/pages 2b37f28e14a9
